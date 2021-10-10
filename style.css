@@ -14,15 +14,98 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    max-width: 1200px;
     width: 100%;
     overflow: hidden;
     margin: 0;
-   
 }
 .card{
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
     overflow: hidden;
     width: 350px;
+}
+.header
+{
+    background-color: #3e57db;
+    color: white;
+    padding: 30px 20px;
+}
+.title
+{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #3e57db;
+    text-transform: uppercase;
+}
+.subtitle
+{
+    margin: 5px 0 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #3e57db;
+    opacity: 0.8;
+    text-transform: capitalize;
+}
+.header input
+{
+    background-color: rgba(0,0,0,0.9);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.user-list
+{
+    background-color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow: auto;
+}
+.user-list li
+{   
+    display: flex;
+    padding: 20px;
+}
+.user-list li:not(:last-of-type)
+{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.user-list img
+{   
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.loading{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+    text-transform: capitalize;
+}
+.user-list li.hide
+{
+    display: none;
+}
+.user-list .info-user{
+    margin-left: 10px;
+}
+.user-list .info-user h5{
+    margin: 0 0 10px;
+}
+.user-list .info-user p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
 }
