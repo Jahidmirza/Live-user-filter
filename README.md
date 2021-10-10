@@ -23,4 +23,4 @@ This main branch contains the HTML template for the project. You will get lesson
 
 Jahid Mirza - [Jahidmirzabd@gmail.com](mailto:Jahidmirzabd@gmail.com)
 
-Repository Link: [https://jahidmirza.github.io/Mouse-move-parallax](https://jahidmirza.github.io/Mouse-move-parallax)
+Repository Link: [https://github.com/Jahidmirza/Live-user-filter](https://github.com/Jahidmirza/Live-user-filter)
